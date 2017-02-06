@@ -24,7 +24,7 @@ $(function(){
 		var firstItem = carouselList.find("li:first");
 		var lastItem = carouselList.find("li:last");
 		firstItem.before(lastItem);
-		carouselList.css({marginLeft:400});
+		carouselList.css({marginLeft:-400});
 	}
 
 
